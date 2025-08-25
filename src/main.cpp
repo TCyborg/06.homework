@@ -1,5 +1,6 @@
 #include <iostream>
 #include "myvector.h"
+#include "mylist.h"
 
 // Функция для вывода содержимого контейнера
 template<typename Container>
@@ -51,6 +52,8 @@ void demonstrate_container() {
 int main() {
     // Демонстрация работы с myvector
     demonstrate_container<myvector<int>>();
-    
+    // Демонстрация работы с mylist
+    demonstrate_container<mylist<int>>();
+
     return 0;
 }
