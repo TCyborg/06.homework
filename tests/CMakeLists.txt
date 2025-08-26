@@ -13,6 +13,7 @@ FetchContent_MakeAvailable(googletest)
 
 add_executable(containers_tests 
     myvector_tests.cpp
+    mylist_tests.cpp
 )
 
 target_link_libraries(containers_tests gtest_main)
